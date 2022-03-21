@@ -20,9 +20,9 @@ li {
     flex-direction: row;
 }
 
-.fa-check-double {
+.fa-circle-check {
     font-size: 2.5em;
-    color: #fff;
+    color: #b3eff369;
     margin-left: 10px;
     left: 12px;
 }
@@ -67,8 +67,11 @@ li {
 
 .TodoItem-p--complete {
     text-decoration: line-through;
+    color: #b3eff369;
 }
 
 .Icon-check--active {
     color: #4caf50;
+    text-decoration: line-through;
+    color: #b3eff369;
 }
