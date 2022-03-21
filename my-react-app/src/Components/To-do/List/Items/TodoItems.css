@@ -65,10 +65,10 @@ li {
     display: inline;
 }
 
-.fa-check-double--active {
-    color: #ccc;
-}
-
 .TodoItem-p--complete {
     text-decoration: line-through;
+}
+
+.Icon-check--active {
+    color: #4caf50;
 }
