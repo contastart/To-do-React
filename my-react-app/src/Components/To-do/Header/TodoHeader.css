@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #006699;
+    min-height: 350px;
+    background-image: linear-gradient(90deg, #006699 0%, #669933 100%);
+}
+
+header span {
+    color: #669933;
+    margin-top: 0;
+    font-size: 117px;
+}
+
+header small {
+    font-family: 'Airstrip Four';
+    font-weight: normal;
+    font-size: 54px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+header img {
+    margin-top: 25px;
+    margin-left: 50px;
+}

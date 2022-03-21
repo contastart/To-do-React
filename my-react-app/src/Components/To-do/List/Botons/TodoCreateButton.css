@@ -1,0 +1,44 @@
+:root {
+    --primary-light: #3399CC;
+    --primary: #3399CC;
+    --primary-dark: #669933;
+    --white: #CCCCCC;
+    --greyLight-1: #669933;
+    --greyLight-2: #CCCCCC;
+    --greyLight-3: #669933;
+    --greyDark: #3b3e41;
+}
+
+.bottoncenter {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 35%;
+    height: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn__primary {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background: var(--primary);
+    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-light), inset -0.2rem -0.2rem 1rem var(--primary-dark), 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    color: var(--greyLight-1);
+}
+
+.btn__primary:hover {
+    color: var(--white);
+}
+
+.btn__primary:active {
+    box-shadow: inset 0.2rem 0.2rem 1rem var(--primary-dark), inset -0.2rem -0.2rem 1rem var(--primary-light);
+}
